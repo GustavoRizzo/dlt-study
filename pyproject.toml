@@ -8,8 +8,11 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13,<3.14"
 dependencies = [
-    "dlt[duckdb] (>=1.12.3,<2.0.0)"
+    "dlt[duckdb] (>=1.12.3,<2.0.0)",
+    "streamlit (>=1.46.1,<2.0.0)"
 ]
+[tool.poetry]
+package-mode = false
 
 
 [build-system]
